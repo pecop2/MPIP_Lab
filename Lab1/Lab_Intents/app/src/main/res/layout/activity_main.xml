@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16sp"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/explicitResultTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/explicit_result"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/explicitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/explicit_activity"
+        android:onClick="explicitBtnClick"
+
+
+    />
+
+    <Button
+        android:id="@+id/implicitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/implicit_activity"
+        android:onClick="implicitBtnClick"
+
+        />
+
+    <Button
+        android:id="@+id/actionSendBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_send"
+        android:onClick="actionSendBtnClick"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_picture"
+        android:onClick="choosePictureBtnClick"
+        android:id="@+id/choosePicBtn"
+        />
+
+</LinearLayout>

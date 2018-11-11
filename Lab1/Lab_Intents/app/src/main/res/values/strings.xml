@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab_Intents</string>
+    <string name="ok_btn">Во ред</string>
+    <string name="cancel_btn">Откажи</string>
+    <string name="explicit_activity">Explicit activity</string>
+    <string name="implicit_activity">Implicit activity</string>
+    <string name="action_send">Action send</string>
+    <string name="choose_picture">Choose picture</string>
+    <string name="explicit_result">ExplicitResult</string>
+    <string name="insert_data">Insert data</string>
+</resources>
